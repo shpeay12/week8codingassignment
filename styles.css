@@ -1,0 +1,66 @@
+/*
+Hunter Peay
+Week 8 Coding Assignment
+FE May 2023
+*/
+
+body { /*Selector used to style each page with a background, font-family, margin, center text-align, 5px of padding, and a 2px border*/
+    background-color: rgb(226, 156, 156);
+    font-family: Georgia;
+    margin: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+    border: 2px;
+}
+
+#main-heading { /*ID used to style titles at the top of pages*/
+    text-align: center;
+    font-family: Lucida Handwriting;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+#sub-heading { /*ID used to style sub-headings*/
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+#sub-heading-3 { /*ID used to style headings that are slightly smaller*/
+    font-family:cursive;
+}
+
+.photo-main { /*Class used to style the photo on the home page */
+    height: 15em;
+    width: 20em;
+    border: 10px solid rgb(175, 175, 175);
+}
+
+#photo{ /*ID used to style photos on bus page*/
+    height: 15em;
+    width: 24em;
+    border: 10px solid rgb(175, 175, 175);
+}
+
+ul { /*Selector that styles all unordered lists*/
+    list-style-type: none;
+}
+
+
+table, th, td { /*Selector that styles all tables and all child elements*/
+    border: 1px solid;
+    text-align: center;
+    font-family: cursive;
+}
+
+p { /*Styles all <p> elements*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#navigator, /*ID and selector used to style the page navigation panel and the social media panel*/
+img {
+    padding-bottom: 5px;
+    margin: 5px;
+    width: 3em;
+    height: 3em;
+}
